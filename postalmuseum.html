@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORIS</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<script>
+    
+    function toggleMenu() {
+        var menu = document.querySelector('.menu');
+    menu.classList.toggle('show');
+    }
+    
+</script>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" target="_blank">
+            <img src="LOGO.png" alt="MORIS LOGO">
+        </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Discover</a>
+                    <ul class="dropdown-content">
+                        <li><a href="practicalinfo.html">Practical Info</a></li>
+                        <li><a href="History.html">History</a></li>
+                        <li><a href="Missionvision.html">Mission and Vision</a></li>
+                        <li><a href="Educate.html">Educate</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Museum</a>
+                    <ul class="dropdown-content">
+                        <li><a href="map.html">Map</a></li>
+                        <li><a href="explorethemuseum.html">About the Museum</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Contact</a>
+                    <ul class="dropdown-content">
+                        <li><a href="contactdetails.html">Contact Details</a></li>
+                        <li><a href="payment.php">Book Your Tickets</a></li>
+                        <li><a href="workwithtus.php">Work with Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="qbanner-template.png"alt="Banner">
+        <div class="banner-text">
+            <h1>Gallery</h1>
+        </div>
+    </div>
+    <div class="sub">
+        <ol class="sublist list-inline">
+            <li class="app-breadcrumbs__list__item list-inline-item">
+                    <a href="gallery.html">Gallery</a>
+                    <img src="wer.png" alt="" class="arrow">
+                </li>
+            <li class="app-breadcrumbs__list__item list-inline-item">
+                    <p>Postal Museum</p>
+                </li>
+        </ol>
+    </div>
+
+    <div class="History">
+        <h1>Postal Museum</h1>
+<p> Explore the beauty and diversity of our collection through these stunning images. Each picture tells a unique story, capturing moments of history and culture. </p> 
+      </div>
+
+      <div class="aapravasighat">
+
+        <img src="q1.png" alt="Image 1">
+        <img src="q2.png" alt="Image 2">
+        <img src="q3.png" alt="Image 3">
+        <img src="q4.png" alt="Image 4">
+        <img src="q5.png"alt="Image 5">
+        <img src="q6.png"alt="Image 6">
+        <img src="q7.png" alt="Image 7">
+
+      </div>
+      <p class="gallery-link"><a href="gallery.html">Click here to go back to gallery page</a></p>
+
+      <div class="newsletter">
+        <div class="contact-header">
+            <img src="dodoleft.png" alt="Left Image" width="50">
+            <h2>Register to our newsletter</h2>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <input type="submit" value="Submit">
+            </form>
+            <img src="dodoright.png" alt="Right Image" width="50">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Design Project. Jessy David Charles.</p>
+    </footer>
+</body>
+</html>

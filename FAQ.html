@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORIS</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<script>
+    
+    function toggleMenu() {
+        var menu = document.querySelector('.menu');
+    menu.classList.toggle('show');
+    }
+    
+</script>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" target="_blank">
+            <img src="LOGO.png" alt="MORIS LOGO">
+        </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Discover</a>
+                    <ul class="dropdown-content">
+                        <li><a href="practicalinfo.html">Practical Info</a></li>
+                        <li><a href="History.html">History</a></li>
+                        <li><a href="Missionvision.html">Mission and Vision</a></li>
+                        <li><a href="Educate.html">Educate</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Museum</a>
+                    <ul class="dropdown-content">
+                        <li><a href="map.html">Map</a></li>
+                        <li><a href="explorethemuseum.html">About the Museum</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Contact</a>
+                    <ul class="dropdown-content">
+                        <li><a href="contactdetails.html">Contact Details</a></li>
+                        <li><a href="payment.php">Book Your Tickets</a></li>
+                        <li><a href="workwithtus.php">Work with Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="banner2.png" alt="Banner">
+        <div class="banner-text">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+    </div>
+    <div class="sub">
+        <ol class="sublist list-inline">
+            <li class="app-breadcrumbs__list__item list-inline-item">
+                    <a href="index.html">Home</a>
+                    <img src="wer.png" alt="" class="arrow">
+                </li>
+            <li class="app-breadcrumbs__list__item list-inline-item">
+                    <p>FAQ</p>
+                </li>
+        </ol>
+    </div>
+
+    <div class="faqq">
+        <h1>Have Any Questions?</h1>
+        <p>Please refer to the information below. If you cannot find what you’re looking for, kindly contact us at  <a href="mailto:Morismuseum@gmail.com">Morismuseum@gmail.com</a></p>
+      </div>
+
+      <div class="questions">
+        <div class="question-answer">
+            <div class="question">Is there an admission fee to enter the open-air museum, or is it free?</div>
+            <div class="answer">Yes, there is an admission fee to enter the open-air museum. The fee is Rs 100 per person for entry without a guide. For school educational tours, which include a guide and transport, the price is reduced to Rs 70 per person. For regular visitors who wish to have a guide and transport, the fee is Rs 120 per person. All the money collected from admission fees will be used to fund the work done in the museum, including renovations, preservation, and other maintenance efforts.
+            </div>
+        </div>
+        <div class="question-answer">
+            <div class="question">Is photography allowed inside the museum?</div>
+            <div class="answer">Photography is allowed in certain areas of the museum, but it depends on the specific locations. We kindly ask all visitors to maintain respect and follow the guidelines posted at each spot they visit. Please check for signage or ask our staff if you're unsure about photography rules in a particular area.</div>
+        </div>
+        <div class="question-answer">
+            <div class="question">Are there any recommended routes or itineraries for first-time visitors?</div>
+            <div class="answer">Yes, we have a ready-made app you can download. Inside, you'll find four different tracks to choose from for your visit. Plus, you'll receive a gift when you scan the QR codes found at various spots.</div>
+        </div>
+        <div class="question-answer">
+            <div class="question">How can we book a guided tour in advance?</div>
+            <div class="answer"> You can book a guided tour by visiting our website or contacting our staff services. Advanced booking is recommended, especially for large groups or school tours.</div>
+        </div>
+        <div class="question-answer">
+            <div class="question">Is the museum accessible for visitors with disabilities?</div>
+            <div class="answer">We strive to make our museum accessible to all visitors. Most areas are wheelchair accessible, and we offer services such as sign language interpretation upon request. Please contact us in advance for any specific accessibility needs.</div>
+        </div>
+      </div>
+
+      <div class="newsletter">
+        <div class="contact-header">
+            <img src="dodoleft.png" alt="Left Image" width="50">
+            <h2>Register to our newsletter</h2>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <input type="submit" value="Submit">
+            </form>
+            <img src="dodoright.png" alt="Right Image" width="50">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Design Project. Jessy David Charles.</p>
+    </footer>
+</body>
+</html>

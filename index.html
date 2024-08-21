@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORIS</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<script>
+    
+    function toggleMenu() {
+        var menu = document.querySelector('.menu');
+    menu.classList.toggle('show');
+    }
+    
+</script>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" target="_blank">
+            <img src="LOGO.png" alt="MORIS LOGO">
+        </a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Discover</a>
+                    <ul class="dropdown-content">
+                        <li><a href="practicalinfo.html">Practical Info</a></li>
+                        <li><a href="History.html">History</a></li>
+                        <li><a href="Missionvision.html">Mission and Vision</a></li>
+                        <li><a href="Educate.html">Educate</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Museum</a>
+                    <ul class="dropdown-content">
+                        <li><a href="map.html">Map</a></li>
+                        <li><a href="explorethemuseum.html">About the Museum</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Contact</a>
+                    <ul class="dropdown-content">
+                        <li><a href="contactdetails.html">Contact Details</a></li>
+                        <li><a href="payment.php">Book Your Tickets</a></li>
+                        <li><a href="workwithtus.php">Work with Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="banner2.png" alt="Banner">
+        <div class="banner-text">
+            Experience the rich history and vibrant culture of Mauritius in the heart of Port Louis. We invite you to explore our first open-air museum which has beautifully preserved historical sites, and serene natural landscapes. Immerse yourself in the stories of our island, where every corner holds a piece of our shared heritage.
+        </div>
+    </div>
+
+    <div class="bar">
+        <p id="quote">“The past is a source of knowledge, and the future is a source of hope. Love of the past implies faith in the future.”
+            Stephen Ambrose</p>
+    </div>
+
+    <div class="container1">
+        <h2> Our History Discoveries</h2>
+        <div class="image-container">
+            <div class="image-card">
+                <div class="image-front">
+                    <img src="q1.png" alt="Discovery 1">
+                </div>
+                <div class="image-back">
+                    <p>The postal service in Mauritius started in 1772 under French rule, using slaves to deliver letters. There were no dedicated postal buildings, just a delivery service.
+                        Visit our history page to know more about Mauritius treasures.
+                    </p>
+                </div>
+            </div>
+            <div class="image-card">
+                <div class="image-front">
+                    <img src="place-darme.png" alt="Discovery 2">
+                </div>
+                <div class="image-back">
+                    <p>Place D’Armes is renowned as the heart of Port Louis, majestically lined with tall palm trees and surrounded by old cannons partially buried in the ground.</p>
+                </div>
+            </div>
+    </div>
+</div>
+
+        <div class="container2" id="med">
+            <div class="title-des">
+                <h1 class="title">MORIS: Documentary episode 1 </h1>
+                <p class="description">In this episode we meet Francis Bastien and Silvain Piangnee who tells us how was Port Louis during their times. let's listen to them together 
+                    and to increase our knowledge about the history of Port-Louis.
+                </p>
+            </div>
+            <div class="video1" id="video1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/04BbsVmmBTE?si=ppKC4KN-WvFPS_C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+            </div>
+
+            <div class="container3">
+                <div class="video2" id="video2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j_cXPPI3_CA?si=mBx835tzLEuK9DbT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="title-desc">
+                    <h1 class="title">MORIS: Documentary episode 2 </h1>
+                    <p class="description">In this episode we meet with different persons and asked them about the good old days and how they experienced the changes throughout the time.Lets all together listen to these precious time travelers and learn more about the past.</p>
+                </div>
+         </div>
+
+        <div class="gallery">
+            <div class="galtitle">
+                <h1>Gallery</h1>
+                <p>Step into our virtual gallery and immerse yourself in the unique beauty of our open-air museum.  Each photograph  featured in our gallery tells a story of its own, capturing the essence of our museum's rich cultural heritage and stunning landscapes.
+                    We invite you to browse through our curated collection to experience the charm of our historical structures, Whether you're revisiting fond memories or planning your first visit, our gallery is designed to inspire and engage, bringing the wonders of our open-air museum directly to you.</p>
+                <button onclick="window.location.href='gallery.html'">View More</button>
+            </div>
+            <div class="gallery-right">
+                <img src="s6.png" alt="testing" id="g1">
+                <img src="s5.png" alt="testing" id="g2">
+            </div>
+        </div>
+        <div class="faq">
+
+            <div class="faq-left">
+                <h2>Do you have questions?</h2>
+                <a href="FAQ.html">Frequently Asked Questions</a>
+                <a href="contactdetails.html">Contact Us</a>
+            </div>
+            <div class="faq-right">
+                <div class="question">
+                    <h3>What are the opening hours and admission fees?</h3>
+                    <p class="answer">Our open-air museum is open to visitors from 9:00 AM to 4:00 PM on weekdays and from 9:00 AM to 12:00 PM on weekends.</p>
+                </div>
+                <div class="question">
+                    <h3>Is there an admission fee to enter the open-air museum, or is it free?</h3>
+                    <p class="answer">Yes, visit our FAQ page for more info or book your ticket online on our website.</p>
+                </div>
+                <div class="question">
+                    <h3>Is photography allowed inside the museum?</h3>
+                    <p class="answer">Photography allowed in specified areas; Please follow posted guidelines. Check signage or ask staff for area-specific rules.</p>
+                </div>
+                <div class="question">
+                    <h3>Are there any facilities such as restrooms, cafes, or gift shops?</h3>
+                    <p class="answer">Yes, since our open-air museum is located in Port Louis, a vibrant public area, you will find cafes and gift shops all around.</p>
+                </div>
+                <div class="question">
+                    <h3>How can we book a guided tour in advance?</h3>
+                    <p class="answer">You can book a guided tour by visiting our website or contacting our visitor services.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="newsletter">
+            <div class="contact-header">
+                <img src="dodoleft.png" alt="Left Image" width="50">
+                <h2>Register to our newsletter</h2>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <input type="submit" value="Submit">
+                </form>
+                <img src="dodoright.png" alt="Right Image" width="50">
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 Design Project. Jessy David Charles.</p>
+        </footer>
+</body>
+</html>
